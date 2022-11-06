@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="szg.css">
+    <title>Számológép</title>
+</head>
+<body>
+    <p>Kérem az első számot:</p>
+    <input type="number" id="elso">
+    <p>Kérem a második számot:</p>
+    <input type="number" id="masodik"><br>
+    <button onclick="szamolas('+')">+</button>
+    <button onclick="szamolas('-')">-</button>
+    <button onclick="szamolas('*')">*</button>
+    <button onclick="szamolas('/')">/</button>
+    <p ><b>Eredmény:</b><span id="eredmeny"></span></p>
+</body>
+<script src="szamol.js"></script>
+</html>
